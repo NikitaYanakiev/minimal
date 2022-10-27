@@ -157,6 +157,7 @@ footer {
 .btn_send {
     background-color: #000000;
     border: 1px solid #7EC4BD;
+    border-bottom: 2px solid #7EC4BD;
     width: 210px;
     box-sizing: border-box;
     padding: 15px 0;
@@ -189,24 +190,209 @@ footer {
     color: rgba(255, 255, 255, 0.4);
 }
 
-.qwe {
-    display: block;
+.main_banner {
+    min-height: 391px;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    display: flex;
 }
-.qwe2 {
-    display: block;
+
+.main_banner h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
-.qwe3 {
-    display: block;
+
+.main_banner p {
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.81);
 }
-.qwe4 {
+
+.main_banner h1:after {
+    content: "";
     display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 26px;
+    margin-bottom: 26px;
 }
-.qwe5 {
-    display: block;
+
+.main_banner_description {
+    background: #FEFEC9;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
 }
-.qwe6 {
-    display: block;
+
+.main_banner_description p{
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #47474F;
+    margin-bottom: 39px;
 }
-.qwe7 {
+
+.main_banner_description a {
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #47474F;
+    display: inline-block;
+    padding: 13px 34px 20px;
+    border: solid 1px #47474F;
+    border-bottom: solid 2px #47474F;
+    text-decoration: none;
+}
+
+.brands {
+    padding: 79px 0 74px;
+    text-align: center;
+}
+
+.brands h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.brands h2:after {
+    content: "";
     display: block;
+    width: 80px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.09);
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 43px;
+}
+
+.brands article{
+    width: 320px;
+    box-sizing: border-box;
+}
+
+.brands_icon {
+    width: 300px;
+    height: 219px;
+    background: #F5F5F5;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.brands_icon img {
+    text-align: center;
+    margin: 50px
+}
+
+.brands h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 38px 0 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+
+}
+
+.brands p {
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    color: #333333;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.projects {
+    background: #F5F5F5;
+    padding: 79px 0 89px;
+    text-align: center;
+}
+
+.projects h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.projects h2:after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.09);
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 43px;
+}
+
+.project_flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.project_card {
+    height: 384px;
+    background-color: #FFFFFF;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.project_card h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    padding: 19px 0 4px;
+}
+
+.project_card h4 {
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    padding-bottom: 21px;
 }
