@@ -374,6 +374,14 @@ footer {
     box-sizing: border-box;
 }
 
+.scale {
+    transition: 1s;
+}
+
+.scale:hover{
+    transform: scale(1.2);
+}
+
 .project_card h3 {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
