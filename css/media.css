@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px){
+    .team_cards{
+        flex-wrap: wrap;
+    }
+    .touch .touch_items{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    header .d_flex{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .project_flex{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .project_card{
+        margin: 0 10px 20px 10px;
+    }
+
+    .review .review_wrapp {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 675px){
+    .review .review_wrapp:before{
+        transform: rotate(90deg);
+    }
+    header nav li a{
+        font-size: 10px;
+    }
+
+
+}

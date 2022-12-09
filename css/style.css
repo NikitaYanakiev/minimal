@@ -39,6 +39,11 @@ header nav li {
     margin-left: 34px
 }
 
+header nav li:first-child{
+    margin-left: 0;
+}
+
+
 header nav li a {
     font-family: 'montserratregular', serif;
     font-style: normal;
@@ -294,7 +299,7 @@ footer {
 
 .brands_icon {
     background: #F5F5F5;
-    padding: 50px 86px;
+    padding: 15% 30%;
 }
 
 .brands_icon img {
@@ -365,6 +370,7 @@ footer {
     margin-bottom: 20px;
     box-sizing: border-box;
     max-width: 300px;
+    /*margin: 0 10px 20px 10px;*/
 }
 
 .project_card img {
@@ -393,4 +399,282 @@ footer {
     text-align: center;
     color: #333333;
     padding-bottom: 21px;
+}
+
+.team{
+    padding: 79px 0 100px;
+
+}
+
+.team h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.team h2:after{
+    content: '';
+    display: block;
+    background: rgba(0, 0, 0, 0.09);
+    width: 80px;
+    height: 2px;
+    margin: 28px auto 43px;
+}
+
+.team .team_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team .team_cards .team_card{
+    max-width: 220px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.team .team_cards .team_card:last-child{
+    margin-right: 0;
+}
+
+.team .team_cards .team_img{
+    max-width: 220px;
+}
+.team .team_cards .team_img img{
+    width: 100%;
+    display: block;
+}
+
+.team .team_cards .team_card h4{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+
+.team .team_cards .team_card h6{
+    font-family: 'Vollkorn',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 30px;
+}
+
+.team .team_cards .team_card .team_soc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team .team_cards .team_card .team_soc a{
+    width: 29px;
+    height: 14px;
+    background: #F5F5F5;
+    margin-right: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team .team_cards .team_card .team_soc a:last-child{
+    margin-right: 0;
+}
+
+.review{
+    padding: 70px 0 100px;
+    background-color: #F5F5F5;
+}
+
+.review .review_head{
+    max-width: 62px;
+    margin: 0 auto 65px;
+}
+
+.review .review_head img{
+    width: 100%;
+    display: block;
+}
+
+.review .review_wrapp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.review .review_wrapp:before{
+    content: '';
+    display: block;
+    height: 215px;
+    width: 2px;
+    background-color: rgba(0, 0, 0, 0.04);
+    position: absolute;
+    left: 50%;
+}
+
+.review .review_item {
+    max-width: 338px;
+}
+
+.review .review_item p{
+    font-family: 'Vollkorn',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 24px;
+}
+
+.review .review_item .review_author{
+    max-width: 64px;
+    margin: 0 auto 10px;
+}
+
+.review .review_item .review_author img{
+    width: 100%;
+    display: block;
+}
+
+.review .review_item h4{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ABABAB;
+}
+
+.touch{
+    background-image: url("../images/touch_bg.jpg");
+    background-size: cover;
+    padding: 79px 0 75px;
+}
+
+.touch h2{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.touch h2:after{
+    content: '';
+    display: block;
+    margin: 28px auto 63px;
+    width: 80px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.09);
+}
+
+.touch .touch_items{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.touch .touch_item{
+    min-width: 195px;
+}
+
+.touch .touch_item .touch_icon{
+    display: block;
+    margin:0 auto 26px;
+
+}
+
+
+
+.touch .touch_item h4{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.touch .touch_item .touch_list li{
+    list-style: none;
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    color: #212121;
+}
+
+.touch .touch_item .touch_list2 li:nth-child(2){
+    margin-bottom: 22px;
+}
+
+.touch .touch_item .touch_soc li{
+    position: relative;
+    list-style: none;
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    margin-left: 80px;
+    color: #212121;
+    margin-bottom: 11px;
+}
+
+.touch .touch_item .touch_soc li:first-child:before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: block;
+    background-image: url("../images/facebook.svg");
+    position: absolute;
+    left: -23px;
+    bottom: 5px;
+}
+
+.touch .touch_item .touch_soc li:nth-child(2):before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: block;
+    background-image: url("../images/twitter.svg");
+    position: absolute;
+    left: -23px;
+    bottom: 5px;
+}
+
+.touch .touch_item .touch_soc li:last-child:before{
+    content: '';
+    width: 14px;
+    height: 14px;
+    display: block;
+    background-image: url("../images/linkedin.svg");
+    position: absolute;
+    left: -23px;
+    bottom: 5px;
 }
