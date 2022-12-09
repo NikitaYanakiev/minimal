@@ -635,15 +635,9 @@ footer {
 
 .touch .touch_item .touch_soc li{
     position: relative;
-    list-style: none;
-    font-family: 'Vollkorn', serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 22px;
-    margin-left: 80px;
-    color: #212121;
     margin-bottom: 11px;
+    margin-left: 80px;
+    list-style: none;
 }
 
 .touch .touch_item .touch_soc li:first-child:before{
@@ -677,4 +671,15 @@ footer {
     position: absolute;
     left: -23px;
     bottom: 5px;
+}
+
+.touch .touch_item .touch_soc li a{
+    font-family: 'Vollkorn', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #212121;
+
 }
